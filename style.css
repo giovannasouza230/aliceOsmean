@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    background-color: aliceblue;
+}
+nav{
+    background-color: rgb(226, 155, 217);
+}
+
+#menu{display:flex;
+    justify-content: center;
+}
+#menu li{
+    list-style-type: none;
+}
+#menu li a:hover{background-color:rgb(164, 233, 210);}
+#menu li:hover>ul,ul:hover{visibility:visible;}/*exibe o menu dropdown*/
+#menu li a{
+background-color: aquamarine;
+font-family:'Open Sans',sans-serif;
+text-decoration:none;
+color:black;
+padding: 15px;
+display: block;/*transforma o link que é uma tag de linha em tag de bloco*/
+}
+

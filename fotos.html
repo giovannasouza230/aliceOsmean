@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  
+  @import url('https://fonts.googleapis.com/css2?family= Caveat & display=swap');
+  body{
+            background-image: url("fotoslivros/folhasheartstopper.webp");
+        }
+  nav{
+   background-color:  rgb(144, 221, 209);;
+    border-radius: 100px;
+}
+
+#menu{display:flex;
+    justify-content: center;
+}
+#menu li{
+    list-style-type: none;
+}
+#menu li a:hover{background-color:rgb(164, 233, 210);}
+#menu li:hover>ul,ul:hover{visibility:visible;}/*exibe o menu dropdown*/
+#menu li a{
+    background-color:rgb(233, 164, 211);
+font-family: 'Caveat', cursive;
+text-decoration:none;
+color:black;
+padding: 15px;
+border-radius: 100px;
+display: block;/*transforma o link que é uma tag de linha em tag de bloco*/
+}
+img{
+    margin-inline: 20px;
+    border:5px solid #000000
+
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul id="menu">
+            <li><a href="menu.html">Home</a></li>
+            <li><a href="fotos.html">Fotos</a></li>
+            <li><a href="biografia.html">Biografia</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="img">
+        <img src="fotosalice/alice.jpg"/>
+        <img src="fotosalice/alice2.jpg"/>
+        <img src="fotosalice/alice3.jpg"/>
+        <img src="fotosalice/alice4.jpg"/>
+        <img src="fotosalice/alice5.jpg"/>
+        <br/>
+        <img src="fotosalice/alice6.jpg"/>
+        <img src="fotosalice/alice7jpg.jpg"/>  
+        <img src="fotosalice/alice9jpg.jpg"/>
+        <img src="fotosalice/alice10.jpg"/>
+    </div>
+   
+</body>
+</html>
